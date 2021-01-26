@@ -1,5 +1,5 @@
-[![banner](/_assets/pics/bannerLST.png)](https://github.com/marcoteran/linearsystemstheory)
-# Teoría de Sistemas lineales
+[![banner](/_assets/pics/iotbanner.png)](https://github.com/marcoteran/internetofthings)
+# Introducción al Internet de las Cosas
 
 ## Descripción
 
