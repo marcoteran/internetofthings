@@ -12,13 +12,13 @@ El curso Teoría de Sistemas Lineales presenta exhaustivamente importantes herra
 
 ## Información
 * **Grabación de las clases** [Enlace carpeta Drive]
-* **Telegram group:** [enlace](https://t.me/joinchat/GX48PL2cz6_vM3W5)
-* **Google classroom:** [enlace](https://classroom.google.com/c/MjY4MDI1NjkyODMx?cjc=rnu5peb) Código: rnu5peb
+* **Telegram group:** [enlace](https://t.me/joinchat/Ie-daAJBiw_cUuqm)
+* **Google classroom:** [enlace](https://classroom.google.com/c/MjY4MTg2ODk4NzEz?cjc=4btuyc4) Código: 4btuyc4
 
 ## Contenido
 
 1. **Presentación del curso *Teoría de Sistemas Lineales***
-	* Descargar presentación [PDF](https://github.com/marcoteran/linearsystemstheory/raw/master/lectures/00_linearsystemtheory_syllabus.pdf) 
+	* Descargar presentación [PDF](https://github.com/marcoteran/internetofthings/raw/master/lectures/00_internetofthings_syllabus.pdf) 
 	
 
 ## Material adicional
