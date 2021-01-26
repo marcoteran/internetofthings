@@ -3,11 +3,8 @@
 
 ## Descripción
 
-El curso Teoría de Sistemas Lineales presenta exhaustivamente importantes herramientas de la teoría de sistemas lineales, incluyendo ecuaciones diferenciales y de diferencia, la transformada de Laplace y Z.
-* El estudiante aprenderá los conceptos básicos detrás de la descripción matemática de la relación entre la respuesta de un sistema y su entrada.
-* El estudiante identificará las partes que componen un sistema, describirá el sistema y lo adaptará a las características de linealidad principalmente.
-* El estudiante comprenderá las diferentes herramientas que existen para representar un sistema lineal en diferentes situaciones y bajo diferentes puntos de análisis.
-* El estudiante aprenderá a utilizar las herramientas matemáticas que facilitan el estudio según lo explicado anteriormente.
+Esta asignatura proporciona los fundamentos requeridos para el desarrollo de soluciones IoT propias, desde la adquisición de datos (sensores), pasando por la interfaz y cómputo (sistema embebido), conectividad a la red (Internet) y finalizando en el análisis de datos (procesamiento en la “nube” y visualización en la Web).
+* Las competencias para desarrollar con esta asignatura enriquecerán las habilidades profesionales del estudiante de la Universidad Sergio Arboleda en las áreas disciplinares de Telecomunicaciones, Telemática y Electrónica. 
 
 
 ## Información
@@ -17,7 +14,7 @@ El curso Teoría de Sistemas Lineales presenta exhaustivamente importantes herra
 
 ## Contenido
 
-1. **Presentación del curso *Teoría de Sistemas Lineales***
+1. **Presentación del curso *Introducción al Internet de las Cosas***
 	* Descargar presentación [PDF](https://github.com/marcoteran/internetofthings/raw/master/lectures/00_internetofthings_syllabus.pdf) 
 	
 
