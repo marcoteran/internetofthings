@@ -8,7 +8,7 @@ Esta asignatura proporciona los fundamentos requeridos para el desarrollo de sol
 
 
 ## Información
-* **Grabación de las clases** [Enlace carpeta Drive]
+* **Grabación de las clases** [Enlace carpeta Drive](https://drive.google.com/drive/folders/1LXqyZ-88ba3mFtIszBdo_sizFOSPHfJa?usp=sharing)
 * **Telegram group:** [enlace](https://t.me/joinchat/Ie-daAJBiw_cUuqm)
 * **Google classroom:** [enlace](https://classroom.google.com/c/MjY4MTg2ODk4NzEz?cjc=4btuyc4) Código: 4btuyc4
 
