@@ -21,7 +21,17 @@ Esta asignatura proporciona los fundamentos requeridos para el desarrollo de sol
 	* Descargar presentación [PDF](https://github.com/marcoteran/internetofthings/raw/master/lectures/class01_IoTintroduction.pdf) 	
 
 3. **Sistemas embebidos**
-	* Descargar presentación [PDF](https://github.com/marcoteran/internetofthings/raw/master/lectures/class02_EmbeddedSystems.pdf) 	
+	* Descargar presentación [PDF](https://github.com/marcoteran/internetofthings/raw/master/lectures/class02_EmbeddedSystems.pdf) 
+
+3. **Comunicaciones IoT**
+	* Descargar presentación [PDF](https://github.com/marcoteran/internetofthings/raw/master/lectures/class03_COMM.pdf)
+
+4. **Protocolos de comunicación**
+	* Módulo ESP8266/ESP32 [PDF](https://github.com/marcoteran/internetofthings/raw/master/lectures/class04_ESP8266-32.pdf)
+	* Laboratorio MQTT [PDF](https://github.com/marcoteran/internetofthings/raw/master/lectures/iot_MQTTlab.pdf)
+
+
+
 
 ## Material adicional
 
