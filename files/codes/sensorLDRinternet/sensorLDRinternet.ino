@@ -17,7 +17,7 @@ void loop() {
     int lum = analogRead(SENSOR);
     int brightness = map(lum, 2330, 3727, 0, 100);
     Serial.print("dato lum sensado: ");
-    Serial.println(brightness);
+    Serial.println(lum);
   
     if(digitalRead(BUTTON)==LOW){
       Serial.println("Se presiono el boton");

@@ -29,6 +29,7 @@ Esta asignatura proporciona los fundamentos requeridos para el desarrollo de sol
 4. **Protocolos de comunicación**
 	* Módulo ESP8266/ESP32 [PDF](https://github.com/marcoteran/internetofthings/raw/master/lectures/class04_ESP8266-32.pdf)
 	* Laboratorio MQTT [PDF](https://github.com/marcoteran/internetofthings/raw/master/lectures/iot_MQTTlab.pdf)
+	* Ejemplo de aplicación IoT [PDF](https://github.com/marcoteran/internetofthings/raw/master/homeworks/IOT2021I_problemaIoT.pdf)
 
 
 
