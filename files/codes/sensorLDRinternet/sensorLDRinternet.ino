@@ -1,6 +1,7 @@
 #define LED 22
 #define BUTTON 15
-#define SENSOR GPIO_NUM_4
+#define SENSOR GPIO_NUM_4ardui
+#include "Ubidots.h"
 
 void setup() {
   // put your setup code here, to run once:
