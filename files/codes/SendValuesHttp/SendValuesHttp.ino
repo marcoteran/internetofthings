@@ -23,6 +23,9 @@ bool pinChanged = 0;
 const char* UBIDOTS_TOKEN = "BBFF-RWFlY7GGLfXunm0MZSXLo2mbmsgiRP";  // Put here your Ubidots TOKEN
 const char* WIFI_SSID = "VIRUS_DETECTED";      // Put here your Wi-Fi SSID
 const char* WIFI_PASS = "marco2016";      // Put here your Wi-Fi password
+const char* DEVICE_LABEL_TO_RETRIEVE_VALUES_FROM = "30aea46b9d58";  // Replace with your device label
+const char* VARIABLE_LABEL_TO_RETRIEVE_VALUES_FROM = "ledstatus";       // Replace with your variable label
+
 Ubidots ubidots(UBIDOTS_TOKEN, UBI_HTTP);
 
 /****************************************
@@ -52,6 +55,19 @@ void setup() {
 
 void loop() {
 
+  bool ledstatus = ubidots.get(DEVICE_LABEL_TO_RETRIEVE_VALUES_FROM, VARIABLE_LABEL_TO_RETRIEVE_VALUES_FROM);
+  // Evaluates the results obtained
+  if (ledstatus != ERROR_VALUE) {
+    Serial.print("Estado del LED: ");
+    Serial.println(ledstatus);
+  }
+
+  if(ledstatus){
+    digitalWrite(LED,HIGH);
+  }else{
+    digitalWrite(LED,LOW);
+  }
+    
   float value = random(0, 9) * 10;
   
   float t = dht.readTemperature();
