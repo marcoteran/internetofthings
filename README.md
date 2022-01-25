@@ -1,4 +1,4 @@
-[![banner](/_assets/pics/iotbanner.png)](https://github.com/marcoteran/internetofthings)
+[![banner](/_assets/pics/iotbanner.jpg)](https://github.com/marcoteran/internetofthings)
 # Introducción al Internet de las Cosas
 
 ## Descripción del curso
