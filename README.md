@@ -28,6 +28,7 @@ Esta asignatura proporciona los fundamentos requeridos para el desarrollo de sol
 1. ESP32 getting started [PDF](https://github.com/marcoteran/internetofthings/raw/master/lectures/01_internetofthings_iotintroduction.pdf)
 
 ### Certificados
+Networking Academy [Enlace](https://www.netacad.com/)
 1. **Primer corte** 
 	- Get Connected
 	- Introduction to Packet Tracer
