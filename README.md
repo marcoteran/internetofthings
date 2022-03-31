@@ -25,7 +25,14 @@ Esta asignatura proporciona los fundamentos requeridos para el desarrollo de sol
 
 
 ## Laboratorios
-1. ESP32 getting started [PDF](https://github.com/marcoteran/internetofthings/raw/master/lectures/01_internetofthings_iotintroduction.pdf)
+1. ESP32 getting started 
+2. **Fundamentos de Python** [PDF](https://github.com/marcoteran/internetofthings/raw/master/lectures/04_internetofthings_pythoncrashcourse.pdf)
+		* IPython Notebooks:
+			- Notebook Curso corto de Python [descargar](https://github.com/marcoteran/internetofthings/blob/master/laboratory/00_introtopython/01_internetofthings_pythoncrashcourse.ipynb)
+			[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/marcoteran/internetofthings/blob/master/laboratory/00_introtopython/01_internetofthings_pythoncrashcourse.ipynb)
+				* Python Homework [descargar](https://github.com/marcoteran/internetofthings/blob/master/laboratory/00_introtopython/02_internetofthings_pythoncrashcoursehomework.ipynb)
+				[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/marcoteran/internetofthings/blob/master/laboratory/00_introtopython/02_internetofthings_pythoncrashcoursehomework.ipynb)
+				<sub>(**Deadline:** 02/09/2021)</sub>
 
 ### Certificados
 Networking Academy [Enlace](https://www.netacad.com/)
