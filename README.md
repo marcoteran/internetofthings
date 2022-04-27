@@ -23,6 +23,8 @@ Esta asignatura proporciona los fundamentos requeridos para el desarrollo de sol
 3. **Comunicaciones IoT**
 	* Descargar presentación [PDF](https://github.com/marcoteran/internetofthings/raw/master/lectures/03_internetofthings_iotcommunications.pdf)
 
+5. **Comunicaciones LPWAN**
+	* Descargar presentación [PDF](https://github.com/marcoteran/internetofthings/raw/master/lectures/05_internetofthings_LPWAN.pdf)
 
 ## Laboratorios
 1. ESP32 getting started 
