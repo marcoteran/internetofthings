@@ -11,6 +11,10 @@ Esta asignatura proporciona los fundamentos requeridos para el desarrollo de sol
 ## Contenido
 0. **Presentación del curso *Introducción al Internet de las Cosas***
 	* Descargar presentación [PDF](https://github.com/marcoteran/internetofthings/raw/master/lectures/00_iot_syllabus.pdf)
+1. **Introducción al Internet de las Cosas**
+	* Descargar presentación [PDF](https://github.com/marcoteran/internetofthings/raw/master/lectures/01_iot_introduction.pdf)	
+2. **Aplicaciones del Internet de las Cosas**
+	* Descargar presentación [PDF](https://github.com/marcoteran/internetofthings/raw/master/lectures/02_iot_applications.pdf)
 
 ## Laboratorios
 
