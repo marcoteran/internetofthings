@@ -15,26 +15,19 @@ Esta asignatura proporciona los fundamentos requeridos para el desarrollo de sol
 	* Descargar presentación [PDF](https://github.com/marcoteran/internetofthings/raw/master/lectures/01_iot_introduction.pdf)	
 2. **Aplicaciones del Internet de las Cosas**
 	* Descargar presentación [PDF](https://github.com/marcoteran/internetofthings/raw/master/lectures/02_iot_applications.pdf)
-
-## Laboratorios
-
-### Certificados
-Networking Academy [Enlace](https://www.netacad.com/)
-1. **Primer corte** 
-	- Get Connected
-	- Introduction to Packet Tracer
-2. **Segundo corte**
-	- Introduction to IoT
-	- NDG Linux Unhatched
-3. **Tercer corte**
-	- Cybersecurity Essentials
-	- NDG Linux Essentials
-
-## Material adicional
+3. **Sistemas embebidos**
+	* Descargar presentación [PDF](https://github.com/marcoteran/internetofthings/raw/master/lectures/03_iot_embeddedsystems.pdf)
+	- Arduino y ESP32  [PDF](https://github.com/marcoteran/internetofthings/raw/master/lectures/04_iot_arduino.pdf)
+4. **Comunicaciones IoT**
+	* Descargar presentación [PDF](https://github.com/marcoteran/internetofthings/raw/master/lectures/05_iot_iotcommunications.pdf)
+5. **Fundamentos de Python** [PDF](https://github.com/marcoteran/internetofthings/raw/master/lectures/06_iot_pythoncrashcourse.pdf)
+		* IPython Notebooks:
+			- Notebook Curso corto de Python [descargar](https://github.com/marcoteran/internetofthings/blob/master/laboratory/00_introtopython/01_internetofthings_pythoncrashcourse.ipynb)
+			[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/marcoteran/internetofthings/blob/master/laboratory/00_introtopython/01_internetofthings_pythoncrashcourse.ipynb)
+				* Python Homework [descargar](https://github.com/marcoteran/internetofthings/blob/master/laboratory/00_introtopython/02_internetofthings_pythoncrashcoursehomework.ipynb)
+				[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/marcoteran/internetofthings/blob/master/laboratory/00_introtopython/02_internetofthings_pythoncrashcoursehomework.ipynb)
+				<sub>(**Deadline:** 02/09/2021)</sub>
 
 ## Foro literario
 Libro para leer durante el semestre:
 *Catmull, Ed.* **Creatividad, S.A.: *Cómo llevar la inspiración hasta el infinito y más allá***. Conecta (2018).
-
-## Literatura
-
