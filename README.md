@@ -27,6 +27,10 @@ Esta asignatura proporciona los fundamentos requeridos para el desarrollo de sol
 				* Python Homework [descargar](https://github.com/marcoteran/internetofthings/blob/master/laboratory/00_introtopython/02_internetofthings_pythoncrashcoursehomework.ipynb)
 				[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/marcoteran/internetofthings/blob/master/laboratory/00_introtopython/02_internetofthings_pythoncrashcoursehomework.ipynb)
 				<sub>(**Deadline:** 02/09/2021)</sub>
+6. **Raspberry Pi**
+	* Descargar presentación [PDF](https://github.com/marcoteran/iotintroduction/raw/master/lectures/07_iot_raspberrypy.pdf)
+7. **Node-RED**
+	* Descargar presentación [PDF](https://github.com/marcoteran/internetofthings/raw/master/lectures/08_iot_nodered.pdf)
 
 ## Foro literario
 Libro para leer durante el semestre:

@@ -1,0 +1,239 @@
+[
+    {
+        "id": "8a63f92f.b9b558",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "21496864.3245c8",
+        "type": "http request",
+        "z": "8a63f92f.b9b558",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://192.168.0.12/env",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "credentials": {},
+        "x": 290,
+        "y": 160,
+        "wires": [
+            [
+                "f247b9d0.935798",
+                "670158e7493b04ce"
+            ]
+        ]
+    },
+    {
+        "id": "53308fff.ae04c",
+        "type": "ui_button",
+        "z": "8a63f92f.b9b558",
+        "name": "",
+        "group": "839e137cb422b345",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Refresh",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "topicType": "str",
+        "x": 90,
+        "y": 160,
+        "wires": [
+            [
+                "21496864.3245c8"
+            ]
+        ]
+    },
+    {
+        "id": "bb71cb58.3e5ca8",
+        "type": "change",
+        "z": "8a63f92f.b9b558",
+        "name": "Temperature",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload[0].value",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 630,
+        "y": 240,
+        "wires": [
+            [
+                "e20b4a2a8341370a"
+            ]
+        ]
+    },
+    {
+        "id": "125bdd16.b70bd3",
+        "type": "change",
+        "z": "8a63f92f.b9b558",
+        "name": "Humidity",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload[1].value",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 620,
+        "y": 320,
+        "wires": [
+            [
+                "3e3211ee.e8ed3e"
+            ]
+        ]
+    },
+    {
+        "id": "f247b9d0.935798",
+        "type": "json",
+        "z": "8a63f92f.b9b558",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 450,
+        "y": 240,
+        "wires": [
+            [
+                "125bdd16.b70bd3",
+                "bb71cb58.3e5ca8"
+            ]
+        ]
+    },
+    {
+        "id": "3e3211ee.e8ed3e",
+        "type": "ui_gauge",
+        "z": "8a63f92f.b9b558",
+        "name": "",
+        "group": "839e137cb422b345",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "wave",
+        "title": "Humidity",
+        "label": "%",
+        "format": "{{value}}",
+        "min": "0",
+        "max": "100",
+        "colors": [
+            "#0096ff",
+            "#00f900",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 860,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "e20b4a2a8341370a",
+        "type": "ui_chart",
+        "z": "8a63f92f.b9b558",
+        "name": "",
+        "group": "839e137cb422b345",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "Temperature",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 870,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "670158e7493b04ce",
+        "type": "debug",
+        "z": "8a63f92f.b9b558",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 420,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "839e137cb422b345",
+        "type": "ui_group",
+        "name": "Sensor",
+        "tab": "2db8e6531c6a9b71",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2db8e6531c6a9b71",
+        "type": "ui_tab",
+        "name": "Room",
+        "icon": "wb_sunny",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    }
+]
